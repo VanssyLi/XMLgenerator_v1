@@ -18,7 +18,7 @@
 
 
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
-
+	<!-- ntax=186 nchar=1368                                                     -->
 	<alignment id="alignment1" dataType="nucleotide">
 
 	</alignment>
@@ -26,7 +26,7 @@
 
 
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
-
+	<!-- ntax=186 nchar=2529                                                     -->
 	<alignment id="alignment2" dataType="nucleotide">
 
 	</alignment>
@@ -34,7 +34,7 @@
 
 
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
-
+	<!-- ntax=186 nchar=11154                                                    -->
 	<alignment id="alignment3" dataType="nucleotide">
 
 	</alignment>
@@ -42,7 +42,7 @@
 
 
 	<!-- The sequence alignment (each sequence refers to a taxon above).         -->
-
+	<!-- ntax=186 nchar=1300                                                     -->
 	<alignment id="alignment4" dataType="nucleotide">
 
 	</alignment>
@@ -50,7 +50,7 @@
 
 
 	<!-- The unique patterns from 1 to end                                       -->
-
+	<!-- npatterns=707                                                           -->
 	<patterns id="tRNA.patterns" from="1" strip="false">
 		<alignment idref="alignment1"/>
 	</patterns>
@@ -58,7 +58,7 @@
 
 
 	<!-- The unique patterns from 1 to end                                       -->
-
+	<!-- npatterns=1477                                                          -->
 	<patterns id="rRNA.patterns" from="1" strip="false">
 		<alignment idref="alignment2"/>
 	</patterns>
@@ -68,7 +68,7 @@
 	<!-- The unique patterns for codon position 1                                -->
 
 	<!-- The unique patterns from 1 to end every 3                               -->
-
+	<!-- npatterns=2236                                                          -->
 	<patterns id="CDS.CP1.patterns" from="1" every="3" strip="false">
 		<alignment idref="alignment3"/>
 	</patterns>
@@ -76,7 +76,7 @@
 	<!-- The unique patterns for codon position 2                                -->
 
 	<!-- The unique patterns from 2 to end every 3                               -->
-
+	<!-- npatterns=2438                                                          -->
 	<patterns id="CDS.CP2.patterns" from="2" every="3" strip="false">
 		<alignment idref="alignment3"/>
 	</patterns>
@@ -84,7 +84,7 @@
 	<!-- The unique patterns for codon position 3                                -->
 
 	<!-- The unique patterns from 3 to end every 3                               -->
-
+	<!-- npatterns=2189                                                          -->
 	<patterns id="CDS.CP3.patterns" from="3" every="3" strip="false">
 		<alignment idref="alignment3"/>
 	</patterns>
@@ -92,7 +92,7 @@
 
 
 	<!-- The unique patterns from 1 to end                                       -->
-
+	<!-- npatterns=808                                                           -->
 	<patterns id="D_loop.patterns" from="1" strip="false">
 		<alignment idref="alignment4"/>
 	</patterns>
