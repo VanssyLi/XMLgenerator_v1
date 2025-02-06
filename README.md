@@ -5,6 +5,7 @@ Run the script:
 <code>python XMLgenerator_v1.py [-o OUTPUT] [-t TEMPLATE] [-f FASTA] [-g GFF] [-p PRIORS] [-m MCMC] [-l LOG]</code>
 
 Optional arguments:
+
 <code>
 -h, --help                             [show this help message and exit.]
 -o OUTPUT, --output OUTPUT             [The output XML file.]
